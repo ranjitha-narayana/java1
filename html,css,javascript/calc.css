@@ -1,0 +1,85 @@
+body{
+    background-color: gray;
+}
+.box{
+background-color: black;
+height: 300px;
+width:250px;
+border-radius: 10px;
+position: relative;
+top: 45px;
+left:40%;
+}
+.display{
+    background-color: cornsilk;
+    width:210px;
+    position: relative;
+    left:15px;
+    top:20px;
+    height: 30px;
+}
+.display input{
+    position: relative;
+    height:27px;
+    width:210px;
+    color:black;
+    background-color:powderblue;
+    font-size: 15px;
+    text-align: right;
+}
+.keys{
+    position: relative;
+    top: 20px;
+}
+.button{
+    width: 40px;
+    height:30px ;
+    border: none;
+    border-radius:8px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-top:2px solid transparent ;
+}
+.button.gray{
+    color: white;
+    background-color: thistle;
+    border-bottom: rosybrown 2px solid;
+    border-top: 2px solid paleturquoise;
+
+}
+.button.pink{
+    color: black;
+    background-color:wheat;
+    border-bottom: darkcyan 2px solid;
+    border-top: 2px solid cornflowerblue;
+
+}
+.button.black{
+    color:black;
+    background-color:lightslategrey;
+    border-bottom: lightseagreen 2px solid;
+    border-top: 2px solid burlywood;
+
+}.button.orange{
+    color: white;
+    background-color:indianred;
+    border-bottom: rosybrown 2px solid;
+    border-top: 2px solid black;
+
+}
+.gray:active{
+    border-top: 2px solid black;
+    border-bottom: 2px solid cornflowerblue;
+}
+.pink:active{
+    border-top: 2px solid black;
+    border-bottom: 2px solid brown;
+}
+.black:active{
+    border-top: 2px solid black;
+    border-bottom: 2px solid maroon;
+}
+.orange:active{
+    border-top: 2px solid black;
+    border-bottom: 2px solid coral;
+}

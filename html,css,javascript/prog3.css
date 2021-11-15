@@ -1,0 +1,18 @@
+nav {
+  padding-bottom: 30px;
+}
+.demo {
+  background-color: burlywood;
+  font-size: 30px;
+}
+
+a {
+  display: inline;
+  width: 100%;
+  margin-inline: 40px;
+  margin-right: 15%;
+}
+image {
+  width: 100%;
+  height: 50%;
+}
